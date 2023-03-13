@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji:ital,wght@0,400;1,900&display=swap');
+
+* {
+    font-family: Arial, "Times New Roman", sans-serif;
+    margin:0;
+    padding:0;
+}
+
+body {
+    display:flex;
+    flex-direction: row;
+    flex:1 0 0;
+}
+
+.sidebar {
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    max-width:594px;
+    align-items: center;
+}
+
+.sidebar > img {
+    width:594px;
+    height:100vh;
+}
+
+.logobox {
+    background-color: black;
+    height:120px;
+    width:594px;
+    margin-top:220px;
+    opacity: 60%;
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    flex: 1 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.logobox > img {
+    width:70px;
+    height:100px;
+    opacity: 100%;
+}
+
+.logo {
+    color:white;
+    font-size:70px;
+    padding-left:20px;
+    opacity:100%;
+    font-family: Skranji, "Times New Roman", sans-serif;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 35% 30% 35%;
+    justify-content:center;
+    width:100%;
+}
+
+.top {
+    display:flex;
+    background-color: #ddd;
+    font-size: 25px;
+    font-weight: bold;
+    padding:0px 50px 50px;
+    align-items: end;
+}
+
+.mid {
+    padding: 12px 30px;
+}
+
+.letsdothis {
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table {
+    margin: 20px -50px;
+    border-collapse: separate;
+    border-spacing: 80px 0;
+}
+
+label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+input {
+    height:20px;
+    font-size: 16px;
+    border-radius: 2px;
+    border: 1px solid #E5E7EB;
+    padding:2px;
+    margin-bottom:15px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #665df5;
+    box-shadow: 0 0 2px #665df5;
+}
+
+.bottom {
+    display:flex;
+    flex-direction: column;
+    background-color: #ddd;
+    padding:30px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #596D48;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 24px;
+    padding:8px 30px;
+    border-radius: 8px;
+    box-shadow: 0.5px 0.5px #fff;
+}
+
+a {
+    color:#596D48;
+}
